@@ -1,0 +1,8 @@
+.burning{
+    height: 371px;
+    background: no-repeat bottom / cover url('images/Burning.png');
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: center right;
+}
