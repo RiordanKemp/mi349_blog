@@ -34,6 +34,12 @@ main{
     border-radius: 20px;
 }
 
+.author{
+    height: 1000px;
+    background: no-repeat bottom / cover url('images/author.jpg');
+    border-radius: 20px;
+}
+
 .navigation{
     display:flex;
     gap: 0px;
