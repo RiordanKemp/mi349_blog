@@ -1,11 +1,118 @@
-.burning{
-    height: 370px;
+body{
+    background:#fff;
+    font-family:Helvetica, sans-serif;
+    border-top: 15px solid #424242;
+    margin: 0 auto;
+    color: #424242;
+    text-align: center
+}
+
+main{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.details{
+    display:flex;
+    gap: 25px;
+}
+
+.details2{
+    display:flex;
+    gap: 25px;
+}
+
+.masthead{
+    height: 1100px;
     background: no-repeat bottom / cover url('images/Burning.png');
     border-radius: 20px;
-    background-repeat: no-repeat;
-    background-size: 250px;
-    background-position: center right;
-    padding-left: 25px;
-    padding-right: 300px;
-    margin: 0 0 0 0;
 }
+
+.masthead2{
+    height: 1100px;
+    background: no-repeat bottom / cover url('images/Frigate_bird.jpg');
+    border-radius: 20px;
+}
+
+.navigation{
+    display:flex;
+    gap: 0px;
+}
+
+
+a:visited.nav, a:link.nav {
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 0px;
+    background-color: #9c9c9c;
+    color: rgb(35, 35, 35);
+    padding: 40px 220px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.details{
+    flex-grow: 1;
+    flex-basis: 0;
+    background: #e9eaec;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: left
+}
+
+.details2{
+    flex-grow: 1;
+    flex-basis: 0;
+    background: #e9eaec;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: left
+}
+
+
+.details section p{
+    margin: 20px;
+}
+
+.details2 section p{
+    margin: 20px;
+}
+
+details section h2{
+    margin: 20px;
+    text-align: center
+}
+
+details2 section h2{
+    margin: 20px;
+    text-align: center
+}
+
+
+img{
+    width:100%;
+}
+
+h2{
+    margin:0 0 10px 0;
+    padding: 20px;
+    text-align: center
+}
+
+p{
+    margin:0;
+    line-height: 1.4em;
+}
+
+a:visited.blog, a:link.blog {
+    text-decoration: none;
+}
+
+
