@@ -23,9 +23,12 @@ main{
 }
 
 
-
-
-
+.formdisplay{
+    display:flex;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .navigation{
