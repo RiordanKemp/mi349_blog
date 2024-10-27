@@ -26,11 +26,7 @@ main{
 
 
 
-.author{
-    height: 1000px;
-    background: no-repeat bottom / cover url('images/author.jpg');
-    border-radius: 20px;
-}
+
 
 .navigation{
     display:flex;
@@ -108,6 +104,10 @@ img{
     border-radius: 20px;
 }
 
+#authorimg{
+    height: 1000px;
+    border-radius: 20px;
+}
 
 h2{
     margin:0 0 10px 0;
