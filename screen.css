@@ -22,17 +22,9 @@ main{
     gap: 25px;
 }
 
-.masthead{
-    height: 1100px;
-    background: no-repeat bottom / cover url('images/Burning.png');
-    border-radius: 20px;
-}
 
-.masthead2{
-    height: 1100px;
-    background: no-repeat bottom / cover url('images/Frigate_bird.jpg');
-    border-radius: 20px;
-}
+
+
 
 .author{
     height: 1000px;
@@ -105,6 +97,17 @@ details2 section h2{
 img{
     width:100%;
 }
+
+#frigatebird{
+    height: 800px;
+    border-radius: 20px;
+}
+
+#burning{
+    height: 1100px;
+    border-radius: 20px;
+}
+
 
 h2{
     margin:0 0 10px 0;
