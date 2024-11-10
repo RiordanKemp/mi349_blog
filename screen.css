@@ -32,7 +32,10 @@ main{
 
 
 .navigation{
-    display:flex;
+    position: sticky;
+    top: 0px;
+    left: 50px;
+    display: flex;
     gap: 0px;
 }
 
